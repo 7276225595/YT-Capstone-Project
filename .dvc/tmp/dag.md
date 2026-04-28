@@ -5,5 +5,7 @@ flowchart TD
 	node1-->node2
 	node3["model_evaluation"]
 	node4["model_registration"]
+	node5["models.dvc"]
 	node3-->node4
+	node5-->node3
 ```
